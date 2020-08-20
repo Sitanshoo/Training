@@ -1,0 +1,7 @@
+.grid-container {
+    background-color: dodgerblue;
+    display: grid;
+    font-size: 35px;
+    gap: 1rem;
+    text-align: center;
+}

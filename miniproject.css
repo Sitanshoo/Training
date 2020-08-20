@@ -1,0 +1,72 @@
+
+.header-bg {
+    background-image: url('https://www.proworkflow.com/wp-content/uploads/2020/05/spare-large@2x-scaled.jpg');
+    display: inline-block;
+    /* position: fixed; */
+    
+}
+.page-logo {
+    /* width: 200px;
+    height: 35px; */
+}
+.page-review-container {
+        background-color: #8A919B;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Yanone Kaffeesatz';
+        font-size: 16px;
+        /* display: flex; */
+        /* height: 300px; */
+}
+.review-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+}
+.avatar {
+    border-radius: 50%;
+}
+.ratings {
+    /* padding: 5px; */
+    width: 90px;
+    height: 20px;
+    text-align: center;
+}
+.ratings-stars {
+    padding: 5px;
+    object-fit: cover;
+}
+h1 {
+    font-size: 64px;
+}
+.page-review-para {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.4;
+    padding: 60px;
+    width: 300px;
+    height: 30px;
+}
+.page-footer {
+    background-color: #5d6f79;
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'Yanone Kaffeesatz';
+    text-align: left;
+    /* height: 300px; */
+    /* display: grid;
+    grid-template-columns: 3fr; */
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+h5 {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+ul li {
+    list-style-type: none;
+}
