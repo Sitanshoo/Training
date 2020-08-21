@@ -5,9 +5,12 @@
     /* position: fixed; */
     
 }
-.page-logo {
-    /* width: 200px;
-    height: 35px; */
+/* .page-content-container {
+    display: ;
+} */
+.content-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .page-review-container {
         background-color: #8A919B;
@@ -15,27 +18,35 @@
         text-align: center;
         padding: 20px;
         font-family: 'Yanone Kaffeesatz';
+        /* font-family: Helvetica; */
         font-size: 16px;
         /* display: flex; */
         /* height: 300px; */
 }
 .review-container {
         display: flex;
-        justify-content: center;
         flex-direction: row;
+}
+.reviewers {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
 }
 .avatar {
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 150px;
 }
 .ratings {
-    /* padding: 5px; */
     width: 90px;
     height: 20px;
     text-align: center;
 }
 .ratings-stars {
     padding: 5px;
-    object-fit: cover;
+    margin-left: 150px;
 }
 h1 {
     font-size: 64px;
@@ -55,9 +66,13 @@ h1 {
     line-height: 1.4;
     font-family: 'Yanone Kaffeesatz';
     text-align: left;
-    /* height: 300px; */
-    /* display: grid;
-    grid-template-columns: 3fr; */
+    /* position: fixed; */
+    display: block;
+}
+.footer-contents {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 0 30px;
 }
 a {
     color: white;
