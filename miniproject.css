@@ -82,28 +82,42 @@ h1 {
     height: 30px;
 }
 .page-footer {
-    background-color: #5d6f79;
+    background-color: #464E55;
     color: white;
     font-size: 16px;
-    line-height: 1.4;
-    font-family: 'Yanone Kaffeesatz';
+    font-family: Helvetica;
     text-align: left;
-    /* position: fixed; */
     display: block;
 }
+.footer-contents-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    text-align: start;
+    grid-column-gap: 15px;
+    justify-content: center;
+    padding: 57px;
+    line-height: 1.8;
+}
 .footer-contents {
-    display: flex;
-    flex-direction: row;
-    padding: 60px 0 30px;
+    justify-items: start;
 }
 a {
     color: white;
     text-decoration: none;
 }
 h5 {
-    font-size: 15px;
-    letter-spacing: 1.5px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 ul li {
     list-style-type: none;
+    margin-left: -39px;
+    font-size: 13px;
+}
+.copyright-details {
+    text-align: center;
+    color: #5D6F79;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
 }
