@@ -1,7 +1,40 @@
 
 .header-bg {
     background-image: url('https://www.proworkflow.com/wp-content/uploads/2020/05/spare-large@2x-scaled.jpg');
+    display: block;
+    width: 100%;
+    padding: 50px;
+}
+.page-logo {
+    width: 200px;
+    height: 35px;
     display: inline-block;
+}
+.navigation-menu {
+    color: #f1f1f1;
+    opacity: 0.5;
+}
+.page-banner {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 25px;
+}
+.page-recommendation {
+    width: 620px;
+    height: 51px;
+    margin: auto;
+}
+.email-request {
+    padding: 50px;
+    font-size: 20px;
+    border-radius: 2px;
+    display: block;
+    text-align: center;
+}
+.credit-stat {
+    color: #f1f1f1;
+    text-align: center;
+    display: block;
 }
  .page-content-container {
     border-top-style: solid;
@@ -65,7 +98,6 @@
 }
 .comment-subject {
     display: block;
-    /* opacity: 0.7; */
     font-size: 1.25rem;
 }
 h1 {
@@ -80,9 +112,6 @@ h1 {
     height: 30px;
     opacity: 0.7;
 }
-/* .page-review-para:hover {
-    color: white;
-} */
 .review-link {
     text-align: center;    
     font-size: 20px;
