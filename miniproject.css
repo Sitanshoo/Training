@@ -2,8 +2,6 @@
 .header-bg {
     background-image: url('https://www.proworkflow.com/wp-content/uploads/2020/05/spare-large@2x-scaled.jpg');
     display: inline-block;
-    /* position: fixed; */
-    
 }
  .page-content-container {
     border-top-style: solid;
@@ -16,8 +14,8 @@
 .video-player {
     display: block;
     justify-content: center;
-    width: 726px;
-    height: 319px;
+    width: 810px;
+    height: 445px;
     margin-left: 492px;
     margin-top: 65px;
     margin-bottom: -44px;
@@ -26,98 +24,116 @@
 .content-details {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 50px;
-    padding: 83px;
+    grid-column-gap: 35px;
+    padding-bottom: 135px;
     width: 841px;
-    margin-left: 370px;
-    font-size: 16px;
+    margin-left: 483px;
+    font-size: 18px;
     color: #5D6F79;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 97px;
+
 }
 .page-review-container {
         background-color: #8A919B;
-        color: white;
+        color: #F1F1F1;
         text-align: center;
-        padding: 20px;
-        font-family: 'Yanone Kaffeesatz';
-        /* font-family: Helvetica; */
+        padding: 61px;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
-        /* display: flex; */
-        /* height: 300px; */
+        padding-bottom: 95px;
 }
 .review-container {
-        display: flex;
-        flex-direction: row;
-}
-.reviewers {
-    width: 300px;
-    height: 300px;
-    justify-content: center;
+        display: grid;
+        grid-template-columns: 386.66px 386.66px 386.66px;
+        grid-column-gap: 40px;
+        margin-left: 199px;
+        margin-bottom: 67px;
+        height: 300px;
+        margin-top: 73px;
 }
 .avatar {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    display: inline-block;
+    display: block;
     margin-left: 150px;
 }
-.ratings {
-    width: 90px;
-    height: 20px;
-    text-align: center;
+.rating {
+    display: block;
+    padding: 11px;
 }
-.ratings-stars {
-    padding: 5px;
-    margin-left: 150px;
+.comment-subject {
+    display: block;
+    /* opacity: 0.7; */
+    font-size: 1.25rem;
 }
 h1 {
     font-size: 64px;
+    font: 4em;
 }
 .page-review-para {
     font-size: 16px;
     text-align: center;
     line-height: 1.4;
-    padding: 60px;
-    width: 300px;
+    width: 383px;
     height: 30px;
+    opacity: 0.7;
+}
+/* .page-review-para:hover {
+    color: white;
+} */
+.review-link {
+    text-align: center;    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10%;
+}
+.review-link:hover {
+    color: white;
 }
 .page-footer {
     background-color: #464E55;
-    color: white;
+    color: #FEFEFE;
     font-size: 16px;
     font-family: Helvetica;
     text-align: left;
     display: block;
+    padding: 1px;
 }
 .footer-contents-container {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px;
     text-align: start;
-    grid-column-gap: 15px;
-    justify-content: center;
+    grid-column-gap: 65px;
     padding: 57px;
     line-height: 1.8;
+    margin-top: -50px;
+    margin-left: 209px;
 }
 .footer-contents {
     justify-items: start;
 }
 a {
-    color: white;
+    color: #B8BCC0;
     text-decoration: none;
+    font-weight: 400;
+}
+a:hover {
+    color: white;
 }
 h5 {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 ul li {
     list-style-type: none;
     margin-left: -39px;
-    font-size: 13px;
+    font-size: 16px;
 }
 .copyright-details {
-    text-align: center;
-    color: #5D6F79;
-    font-size: 13px;
+    text-align: center;    
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
 }
