@@ -1,4 +1,7 @@
 
+.body {
+    margin: auto;
+}
 .header-bg {
     background-image: url('https://www.proworkflow.com/wp-content/uploads/2020/05/spare-large@2x-scaled.jpg');
     display: block;
@@ -6,22 +9,54 @@
     padding: 50px;
 }
 .page-logo {
-    width: 373px;
-    height: 84px;
+    width: 196px;
+    height: 45px;
     display: inline-block;
-    margin-top: -40px;
     margin-left: 219px;
 }
 .header-navigation {
-    display: grid;
-    grid-template-columns: 1fr 700px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
-    grid-gap: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 16px;
+    display: relative;
+    margin-top: -37px;
 }
 .navigation-menu {
-    color: #f1f1f1;
+    color: #5d6f79;;
     opacity: 0.5;
+    display: inline-block;
+    margin-left: 102px;
+}
+.nav-link {
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 1px;
+    text-decoration: none;
+    color: #e9ecec;
+}
+.nav-link:hover {
+    color: white;
+    opacity: 1;
+}
+.button-free-trail {
+    display: inline-block;
+    width: 138px;
+    height: 46px;
+    margin-top: -20px;
+    margin-left: 24px;
+    border-color: #f1f1f1;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: 0 0;
+    text-transform: uppercase;
+}
+.button-free-trail:hover {
+    background-color: #a7cb1c;
+    border-color: #a7cb1c;
+    cursor: pointer;
 }
 .page-banner {
     color: #f1f1f1;
@@ -35,16 +70,19 @@
     margin: auto;
 }
 .banner-input {
-    padding: 50px;
-    margin-left: 409px;
+    padding: 14px;
+    margin-left: 430px;
+    margin-top: 31px;
 }
 .email-request {
     font-size: 20px;
-    border-radius: 4px;
+    border-radius: 4px 0px 0px 4px;
     display: inline-block;
     text-align: start;
     width: 572.58px;
     height: 53.43px;
+    color: #5d6f79;
+    border-style: none;
 }
 .button-start-trail {
     color: #fff;
@@ -55,13 +93,18 @@
     text-transform: uppercase;
     text-align: center;
     border: 4px solid transparent;
-    border-radius: 4px;
+    border-radius: 0px 4px 4px 0px;
     border-color: #a7cb1c;
     width: 231.43px;
     height: 56.43px;
     padding: 14px;
     margin-left: -5px;
     font-weight: bold;
+}
+.button-start-trail:hover {
+    background-color: #829e16;
+    border-color: #a7cb1c;
+    cursor: pointer;
 }
 .credit-stat {
     color: #f1f1f1;
@@ -127,6 +170,7 @@
 .rating {
     display: block;
     padding: 11px;
+    margin-left: 13px;
 }
 .comment-subject {
     display: block;
@@ -175,12 +219,12 @@ h1 {
 .footer-contents {
     justify-items: start;
 }
-a {
+.foot-link {
     color: #B8BCC0;
     text-decoration: none;
     font-weight: 400;
 }
-a:hover {
+.foot-link:hover {
     color: white;
 }
 h5 {
