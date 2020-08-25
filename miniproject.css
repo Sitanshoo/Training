@@ -17,14 +17,15 @@ body {
 }
 .header-navigation {
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     display: relative;
-    margin-top: -37px;
+    margin-top: -29px;
 }
 .navigation-menu {
-    color: #5d6f79;;
     opacity: 0.5;
     display: inline-block;
+    position: relative;
+    top: 3px;
 }
 .nav-link {
     padding: 15px;
@@ -32,7 +33,8 @@ body {
     font-size: 15px;
     margin-left: 1px;
     text-decoration: none;
-    color: #e9ecec;
+    color: #5d6f79;
+    /* opacity: 0.5; */
 }
 .nav-link:hover {
     color: white;
@@ -109,6 +111,7 @@ body {
     color: #f1f1f1;
     text-align: center;
     display: block;
+    margin-bottom: 24px;
 }
  .page-content-container {
     border-top-style: solid;
@@ -150,6 +153,7 @@ body {
         font-size: 16px;
         padding-bottom: 95px;
 }
+
 .review-container {
         display: grid;
         grid-template-columns: 386.66px 386.66px 386.66px;
@@ -192,6 +196,8 @@ h1 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10%;
+    text-decoration: none;
+    color: #464E55;
 }
 .review-link:hover {
     color: white;
@@ -212,8 +218,8 @@ h1 {
     grid-column-gap: 65px;
     padding: 57px;
     line-height: 1.8;
-    margin-top: -50px;
-    margin-left: 209px;
+    margin-top: -36px;
+    margin-left: 237px;
 }
 .footer-contents {
     justify-items: start;
