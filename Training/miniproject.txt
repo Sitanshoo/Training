@@ -1,0 +1,37 @@
+Header color: 
+rgb(255,102,0)
+#FF6600
+
+Button color:
+rbg(130,158,22)
+#829E16
+
+font-family:
+"texta_narrow_altbook",san-serif;
+
+div bg color:
+#8A919B
+
+review link color:
+#464E55
+
+:before :after
+
+bg-image:
+https://www.proworkflow.com/wp-content/uploads/2020/05/spare-large@2x-scaled.jpg
+
+
+form pe submit
+ya form pe input type submit
+
+
+
+git status: tells you the changes made on your file
+git diff: tells you the actuall particular chnages done on the file 
+git add .: 
+git commit -m
+
+what is git hub?
+
+
+ what is cdn

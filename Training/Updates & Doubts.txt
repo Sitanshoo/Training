@@ -1,0 +1,27 @@
+FB-loginPage- Attempt #1
+
+Updates & Doubts:
+
+* fname and lname: same width
+- can't use text-decoration to change link underline
+* CSS input type="date"
+- add checkboxes
+* <hr> alignment
+- how to use divided box-shadow for a single div (50% on left; 50% on right)
+- add checkboxes
+* !important daalne pe bhi use nh ho raha CSS
+- dropdown
+- text-decoration:
+* <select> alag div pe lena chahie? toh usko form pe kaise fit karege?
+* Can't use---background: linear-gradient(5deg, green, blue)
+
+
+*:before
+after
+
+b -15
+c +37
+am +45
+h -68
+s -32
+w -11

@@ -19,7 +19,6 @@ var userDetails = [{
 }]
 
 function addUser(userArr, newUser) {
-    
     userArr.push(newUser);
     console.log("New user Added: ");
     console.log(userArr[userArr.length - 1]);
@@ -75,9 +74,9 @@ function callUser(user, getUser) {
 
 function insertUser() {
     var newUser = {
-        id: 4,
+        id: 5,
         name: "Raju",
-        address: "Dallas"
+        address: "Texas"
     }
     addUser(userDetails, newUser);
 }

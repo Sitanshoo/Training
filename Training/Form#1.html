@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Form #1</title>
+		<style>
+		@media (max-width: 1024px) {
+		.parentBlock {
+			background-color: black;
+		}
+		}
+		.parentBlock {
+				background-color: gray;
+				border-size: 5px;
+				border-style: solid;
+				border-color: red;
+				padding: 100px;
+				margin-left: 100px;
+    				margin-right: 100px;
+    				margin-top: 100px;
+    				margin-bottom: 100px;
+				border-radius: 10px;
+		}
+		#mainForm {
+				border-radius: 10px;
+				background-color: aquamarine;
+				width: 50%;
+				border-size: 2px;
+				border-style: solid;
+				padding: 100px;
+				margin-left: 220px;
+		}
+		.name {
+			color: black;
+			font-family: monospace, helvetica, sans-serif;
+			font-size: 15px;
+		}
+		#formTop {
+			color: teal;
+			font-family: monospace;
+			font-weight: 5px;
+			margin-left: 300px;
+			margin-bottom: 50px;	
+		}
+		#fnamePlace {
+			padding: 2px;
+			border-radius: 5px;
+			margin: 2px;
+			border-width: 2px;
+			background-color: lightgreen;
+		}
+		#lnamePlace {
+			padding: 2px;
+			border-radius: 5px;
+			margin: 10px;
+			border-width: 2px;
+			background-color: lightblue;
+		}
+		#subButton {
+			padding: 10px;
+			border-radius: 5px;
+			margin-left: 650px;
+			font-family: monospace;
+			font-size: 15px;	
+		}		
+		</style>
+	</head>
+	<body>
+		<div class="parentBlock">
+			<form id="mainForm" action="#">
+			<h1 id="formTop"><u>Login Form</u></h1>
+			<label class="name">First Name: </label>
+			<input class="name" id="fnamePlace" type="text" placeholder="Your First Name">
+			<br>
+			<label class="name"> Last Name: </label>
+			<input class="name" id="lnamePlace" type="text" placeholder="Your Last Name">
+			<br><br>
+			<label class="name">Gender: </label>
+			<label class="name"><input type="radio" name="gender" value="Male"> Male</label>
+			<label class="name"><input type="radio" name="gender" value="Female"> Female</label>
+			<br><br>
+			<label class="name">City: </label>
+			<label class="name"><input type="checkbox" name="city" value="Mumbai"> Mumbai</label>
+			<label class="name"><input type="checkbox" name="city" value-"Nagpur"> Nagpur</label>
+			<label class="name"><input type="checkbox" name="city" value="Pune">	Pune</label>
+			<br><br>
+			<button type="submit" id="subButton">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>

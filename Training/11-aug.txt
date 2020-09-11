@@ -1,0 +1,20 @@
+-query string
+value after ?
+& is used for separation
+
+-parameter
+path: afer /; dynamic
+query string
+
+
+url: meet.google.com/:meetingId?key=value
+
+-MIME type
+-t, l, b , r
+-relative realtes t other elemnet
+-absolute
+
+-inline-block: adjacent elemnts
+
+-2 div in 1 parent div
+-parent: explore display properties

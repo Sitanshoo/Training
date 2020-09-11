@@ -1,0 +1,33 @@
+
+doubts:
+- Beizer Curve
+- Units (em, vmin, vw, etc..)
+- z-index (for stacking)
+- grid-area
+- grid units
+
+
+freecodecamp: flex to superpowers
+- follow-btn pe display: flex; lagane se bhi nh hora compile 
+
+
+
+login form:
+remember me checkbox
+google sync
+microfsoft link
+eye wala option in password field
+make a logo
+screen space management
+font size
+
+
+
+css grid can be used to make a dashboard?
+hardcore validation matlab?
+form validation and validation is different?
+
+
+grid units
+grid-column to control spaces
+grid-area

@@ -27,6 +27,7 @@ var nameArr = ["SITANSHU", "KUMAR", "BANGALORE"];
 var resultArr = "";
 
 console.log("\nOrignal Array of Strings:")
+// for (var k = 0 ; k < )
 console.log(" " + nameArr[0] + " " + nameArr[1] + " " + nameArr[2]);//loop
 for (var j = (nameArr.length - 1); j >= 0; j--) {
     resultArr = resultArr + " " +nameArr[j];

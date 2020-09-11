@@ -1,0 +1,16 @@
+2 text box: fname, lname; green and blue(text); border rounded corners;
+form
+2 check box; city; class; fontsize, font wieght
+2 radio button; gender; class; fontsize, font wiegght
+submit
+label
+placeholder
+id
+
+
+*div k andar form
+*form k andar text vgrh sab
+*div pe bg color
+*padding; margin 10px inner-outer dono m; frame jaisa banan hai
+*not deafult font, font degrade
+

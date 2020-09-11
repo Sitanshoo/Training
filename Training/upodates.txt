@@ -1,0 +1,14 @@
+-forgot password; color and font size
+- button changes
+-text box; width and height changes
+-label placement
+-
+
+
+-text chota
+-button chota
+
+
+-make doubt list
+
+-time zones
